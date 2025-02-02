@@ -153,7 +153,7 @@
 					"soul_classic_street_lamp",
 					"soul_double_street_lamp"
                 ]
-            },
+            }
         ],
         "item": [
             {
@@ -311,7 +311,7 @@
 					"soul_classic_street_lamp",
 					"soul_double_street_lamp"
                 ]
-            },
-        ],
+            }
+        ]
     }
 }
