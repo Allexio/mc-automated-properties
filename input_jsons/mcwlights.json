@@ -1,318 +1,115 @@
 {
     "name": "Macaw's Lights and Lanterns",
-    "description": "The default settings for Photon, faithfully interpreting the original vision by SixthSurge",
+    "description": "",
     "id": "mcwlights",
     "version": "v1.1.0",
     "data": {
         "block": [
             {
-                "description": "Water",
-                "object_id": 10001,
-                "affected_objects": [
-                    
-                ]
-            },
-            {
-                "description": "Small plants",
-                "object_id": 10002,
-                "affected_objects": [
-                    
-                ]
-            },
-            {
-                "description": "Tall plants (lower half)",
-                "object_id": 10003,
-                "affected_objects": [
-                    
-                ]
-            },
-            {
-                "description": "Tall plants (upper half)",
-                "object_id": 10004,
-                "affected_objects": [
-                    
-                ]
-            },
-            {
-                "description": "Leaves",
-                "object_id": 10005,
-                "affected_objects": [
-                    
-                ]
-            },
-            {
-                "description": "Hardcoded specular - Grass, stone, spruce and dark oak planks",
-                "object_id": 10006,
-                "affected_objects": [
-                    
-                ]
-            },
-            {
-                "description": "Hardcoded specular - Sand",
-                "object_id": 10007,
-                "affected_objects": [
-                    
-                ]
-            },
-            {
-                "description": "Hardcoded specular - Ice",
-                "object_id": 10008,
-                "affected_objects": [
-                    
-                ]
-            },
-            {
-                "description": "Hardcoded specular - Red sand, birch planks",
-                "object_id": 10009,
-                "affected_objects": [
-                    
-                ]
-            },
-            {
-                "description": "Hardcoded specular - Oak, jungle and acacia planks, granite and diorite",
-                "object_id": 10010,
-                "affected_objects": [
-                    
-                ]
-            },
-            {
-                "description": "Hardcoded specular - Obsidian, nether bricks",
-                "object_id": 10011,
-                "affected_objects": [
-                    
-                ]
-            },
-            {
-                "description": "Hardcoded specular - Metals",
-                "object_id": 10012,
-                "affected_objects": [
-                    
-                ]
-            },
-            {
-                "description": "Hardcoded specular - Gems",
-                "object_id": 10013,
-                "affected_objects": [
-                    
-                ]
-            },
-            {
-                "description": "Strong SSS",
-                "object_id": 10014,
-                "affected_objects": [
-                    
-                ]
-            },
-            {
-                "description": "Weak SSS",
-                "object_id": 10015,
-                "affected_objects": [
-                    
-                ]
-            },
-            {
-                "description": "Chorus plant",
-                "object_id": 10016,
-                "affected_objects": [
-                    
-                ]
-            },
-            {
-                "description": "End stone",
-                "object_id": 10017,
-                "affected_objects": [
-                    
-                ]
-            },
-            {
-                "description": "Transparent metal objects",
-                "object_id": 10018,
-                "affected_objects": [
-                    "copper_chain"
-					"golden_chain"
-                ]
-            },
-            {
-                "description": "Warped stem (x axis)",
-                "object_id": 10019,
-                "affected_objects": [
-                    
-                ]
-            },
-            {
-                "description": "Warped stem (y axis)",
-                "object_id": 10020,
-                "affected_objects": [
-                    
-                ]
-            },
-            {
-                "description": "Warped stem (z axis)",
-                "object_id": 10021,
-                "affected_objects": [
-                    
-                ]
-            },
-            {
-                "description": "Warped hyphae",
-                "object_id": 10022,
-                "affected_objects": [
-                    
-                ]
-            },
-            {
-                "description": "Crimson stem (x axis)",
-                "object_id": 10023,
-                "affected_objects": [
-                    
-                ]
-            },
-            {
-                "description": "Crimson stem (y axis)",
-                "object_id": 10024,
-                "affected_objects": [
-                    
-                ]
-            },
-            {
-                "description": "Crimson stem (z axis)",
-                "object_id": 10025,
-                "affected_objects": [
-                    
-                ]
-            },
-            {
-                "description": "Crimson hyphae",
-                "object_id": 10026,
-                "affected_objects": [
-                    
-                ]
-            },
-            {
-                "description": "Strong white light",
-                "object_id": 10032,
-                "affected_objects": [
-                    "sea_lantern_slab"
-                ]
-            },
-            {
-                "description": "Medium white light",
-                "object_id": 10033,
-                "affected_objects": [
-                    
-                ]
-            },
-            {
-                "description": "Weak white light, transparent",
-                "object_id": 10034,
-                "affected_objects": [
-                    
-                ]
-            },
-            {
                 "description": "Strong golden light",
                 "object_id": 10035,
                 "affected_objects": [
-                    "glowstone_slab"
-					"magenta_lamp"
-					"white_lamp"
-					"pink_lamp"
-					"red_lamp"
-					"black_lamp"
-					"green_lamp"
-					"purple_lamp"
-					"yellow_lamp"
-					"lime_lamp"
-					"light_blue_lamp"
-					"light_gray_lamp"
-					"cyan_lamp"
-					"brown_lamp"
-					"blue_lamp"
-					"orange_lamp"
-					"gray_lamp"
-					"pink_paper_lamp"
-					"black_paper_lamp"
-					"green_paper_lamp"
-					"brown_paper_lamp"
-					"light_gray_paper_lamp"
-					"gray_paper_lamp"
-					"orange_paper_lamp"
-					"cyan_paper_lamp"
-					"red_paper_lamp"
-					"white_paper_lamp"
-					"light_blue_paper_lamp"
-					"magenta_paper_lamp"
-					"blue_paper_lamp"
-					"purple_paper_lamp"
-					"yellow_paper_lamp"
-					"lime_paper_lamp"
-					"striped_lantern"
-					"covered_lantern"
-					"classic_street_lamp"
-					"chain_lantern"
-					"bell_wall_lantern"
-					"wall_lantern"
-					"cross_lantern"
-					"square_wall_lamp"
-					"wall_lamp"
-					"tavern_lantern"
-					"garden_light"
-					"festive_wall_lantern"
-					"bell_lantern"
-					"chain_wall_lantern"
-					"cross_wall_lantern"
-					"striped_wall_lantern"
-					"festive_lantern"
-					"covered_wall_lantern"
-					"double_street_lamp"
-					"tavern_wall_lantern"
-					"copper_small_chandelier"
-					"iron_small_chandelier"
-					"copper_chandelier"
-					"golden_chandelier"
-					"iron_chandelier"
-					"golden_small_chandelier"
-					"brown_ceiling_light"
-					"blue_ceiling_light"
-					"light_gray_ceiling_light"
-					"magenta_ceiling_light"
-					"light_blue_ceiling_light"
-					"yellow_ceiling_light"
-					"gray_ceiling_light"
-					"white_ceiling_light"
-					"red_ceiling_light"
-					"purple_ceiling_light"
-					"black_ceiling_light"
-					"pink_ceiling_light"
-					"cyan_ceiling_light"
-					"green_ceiling_light"
-					"lime_ceiling_light"
-					"orange_ceiling_light"
-					"redstone_lamp_slab"
-					"golden_low_candle_holder"
-					"golden_wall_candle_holder"
-					"golden_candle_holder"
-					"golden_double_candle_holder"
-					"golden_triple_candle_holder"
-					"iron_low_candle_holder"
-					"iron_wall_candle_holder"
-					"iron_candle_holder"
-					"iron_double_candle_holder"
-					"iron_triple_candle_holder"
-					"copper_low_candle_holder"
-					"copper_wall_candle_holder"
-					"copper_candle_holder"
-					"copper_double_candle_holder"
-					"copper_triple_candle_holder"
-					"oak_ceiling_fan_light"
-					"birch_ceiling_fan_light"
-					"spruce_ceiling_fan_light"
-					"jungle_ceiling_fan_light"
-					"dark_oak_ceiling_fan_light"
-					"acacia_ceiling_fan_light"
-					"cherry_ceiling_fan_light"
-					"mangrove_ceiling_fan_light"
-					"crimson_ceiling_fan_light"
+                    "glowstone_slab",
+					"magenta_lamp",
+					"white_lamp",
+					"pink_lamp",
+					"red_lamp",
+					"black_lamp",
+					"green_lamp",
+					"purple_lamp",
+					"yellow_lamp",
+					"lime_lamp",
+					"light_blue_lamp",
+					"light_gray_lamp",
+					"cyan_lamp",
+					"brown_lamp",
+					"blue_lamp",
+					"orange_lamp",
+					"gray_lamp",
+					"pink_paper_lamp",
+					"black_paper_lamp",
+					"green_paper_lamp",
+					"brown_paper_lamp",
+					"light_gray_paper_lamp",
+					"gray_paper_lamp",
+					"orange_paper_lamp",
+					"cyan_paper_lamp",
+					"red_paper_lamp",
+					"white_paper_lamp",
+					"light_blue_paper_lamp",
+					"magenta_paper_lamp",
+					"blue_paper_lamp",
+					"purple_paper_lamp",
+					"yellow_paper_lamp",
+					"lime_paper_lamp",
+					"lava_lamp",
+					"striped_lantern",
+					"covered_lantern",
+					"classic_street_lamp",
+					"chain_lantern",
+					"bell_wall_lantern",
+					"wall_lantern",
+					"cross_lantern",
+					"square_wall_lamp",
+					"wall_lamp",
+					"tavern_lantern",
+					"garden_light",
+					"festive_wall_lantern",
+					"bell_lantern",
+					"chain_wall_lantern",
+					"cross_wall_lantern",
+					"striped_wall_lantern",
+					"festive_lantern",
+					"covered_wall_lantern",
+					"double_street_lamp",
+					"tavern_wall_lantern",
+					"copper_small_chandelier",
+					"iron_small_chandelier",
+					"copper_chandelier",
+					"golden_chandelier",
+					"iron_chandelier",
+					"golden_small_chandelier",
+					"brown_ceiling_light",
+					"blue_ceiling_light",
+					"light_gray_ceiling_light",
+					"magenta_ceiling_light",
+					"light_blue_ceiling_light",
+					"yellow_ceiling_light",
+					"gray_ceiling_light",
+					"white_ceiling_light",
+					"red_ceiling_light",
+					"purple_ceiling_light",
+					"black_ceiling_light",
+					"pink_ceiling_light",
+					"cyan_ceiling_light",
+					"green_ceiling_light",
+					"lime_ceiling_light",
+					"orange_ceiling_light",
+					"redstone_lamp_slab",
+					"golden_low_candle_holder",
+					"golden_wall_candle_holder",
+					"golden_candle_holder",
+					"golden_double_candle_holder",
+					"golden_triple_candle_holder",
+					"iron_low_candle_holder",
+					"iron_wall_candle_holder",
+					"iron_candle_holder",
+					"iron_double_candle_holder",
+					"iron_triple_candle_holder",
+					"copper_low_candle_holder",
+					"copper_wall_candle_holder",
+					"copper_candle_holder",
+					"copper_double_candle_holder",
+					"copper_triple_candle_holder",
+					"oak_ceiling_fan_light",
+					"birch_ceiling_fan_light",
+					"spruce_ceiling_fan_light",
+					"jungle_ceiling_fan_light",
+					"dark_oak_ceiling_fan_light",
+					"acacia_ceiling_fan_light",
+					"cherry_ceiling_fan_light",
+					"mangrove_ceiling_fan_light",
+					"crimson_ceiling_fan_light",
 					"warped_ceiling_fan_light"
                 ]
             },
@@ -320,382 +117,46 @@
                 "description": "Medium golden light",
                 "object_id": 10036,
                 "affected_objects": [
-                    "oak_tiki_torch"
-					"jungle_tiki_torch"
-					"dark_oak_tiki_torch"
-					"bamboo_tiki_torch"
-					"spruce_tiki_torch"
-					"cherry_tiki_torch"
-					"acacia_tiki_torch"
-					"birch_tiki_torch"
-					"mangrove_tiki_torch"
-					"crimson_tiki_torch"
-					"warped_tiki_torch"
-					"upgraded_torch"
-					"framed_torch"
-					"reinforced_torch"
-					"rustic_torch"
+                    "oak_tiki_torch",
+					"jungle_tiki_torch",
+					"dark_oak_tiki_torch",
+					"bamboo_tiki_torch",
+					"spruce_tiki_torch",
+					"cherry_tiki_torch",
+					"acacia_tiki_torch",
+					"birch_tiki_torch",
+					"mangrove_tiki_torch",
+					"crimson_tiki_torch",
+					"warped_tiki_torch",
+					"upgraded_torch",
+					"framed_torch",
+					"reinforced_torch",
+					"rustic_torch",
 					"iron_framed_torch"
-					
-            },
-            {
-                "description": "Weak golden light, transparent",
-                "object_id": 10037,
-                "affected_objects": [
-                    
-                ]
-            },
-            {
-                "description": "Redstone components",
-                "object_id": 10038,
-                "affected_objects": [
-                    
-                ]
-            },
-            {
-                "description": "Lava",
-                "object_id": 10039,
-                "affected_objects": [
-                    "lava_lamp"
-                ]
-            },
-            {
-                "description": "Medium orange light",
-                "object_id": 10040,
-                "affected_objects": [
-                    "shroomlight_slab"
-                ]
-            },
-            {
-                "description": "Brewing stand (medium yellow light)",
-                "object_id": 10041,
-                "affected_objects": [
-                    
-                ]
-            },
-            {
-                "description": "Jack o' Lantern",
-                "object_id": 10042,
-                "affected_objects": [
-                    
                 ]
             },
             {
                 "description": "Soul lights",
                 "object_id": 10043,
                 "affected_objects": [
-                    "soul_spruce_tiki_torch"
-					"soul_bamboo_tiki_torch"
-					"soul_cherry_tiki_torch"
-					"soul_acacia_tiki_torch"
-					"soul_birch_tiki_torch"
-					"soul_oak_tiki_torch"
-					"soul_dark_oak_tiki_torch"
-					"soul_jungle_tiki_torch"
-					"soul_mangrove_tiki_torch"
-					"soul_crimson_tiki_torch"
-					"soul_warped_tiki_torch"
-					"soul_classic_street_lamp"
+                    "soul_spruce_tiki_torch",
+					"soul_bamboo_tiki_torch",
+					"soul_cherry_tiki_torch",
+					"soul_acacia_tiki_torch",
+					"soul_birch_tiki_torch",
+					"soul_oak_tiki_torch",
+					"soul_dark_oak_tiki_torch",
+					"soul_jungle_tiki_torch",
+					"soul_mangrove_tiki_torch",
+					"soul_crimson_tiki_torch",
+					"soul_warped_tiki_torch",
+					"soul_classic_street_lamp",
 					"soul_double_street_lamp"
                 ]
             },
-            {
-                "description": "Beacon",
-                "object_id": 10044,
-                "affected_objects": [
-                    
-                ]
-            },
-            {
-                "description": "End portal frame",
-                "object_id": 10045,
-                "affected_objects": [
-                    
-                ]
-            },
-            {
-                "description": "Sculk",
-                "object_id": 10046,
-                "affected_objects": [
-                    
-                ]
-            },
-            {
-                "description": "Pink glow",
-                "object_id": 10047,
-                "affected_objects": [
-                    
-                ]
-            },
-            {
-                "description": "Sea pickle (green glow)",
-                "object_id": 10048,
-                "affected_objects": [
-                    
-                ]
-            },
-            {
-                "description": "Nether plants",
-                "object_id": 10049,
-                "affected_objects": [
-                    
-                ]
-            },
-            {
-                "description": "Candles",
-                "object_id": 10050,
-                "affected_objects": [
-                    
-                ]
-            },
-            {
-                "description": "Ochre froglight",
-                "object_id": 10051,
-                "affected_objects": [
-                    
-                ]
-            },
-            {
-                "description": "Verdant froglight",
-                "object_id": 10052,
-                "affected_objects": [
-                    
-                ]
-            },
-            {
-                "description": "Pearlescent froglight",
-                "object_id": 10053,
-                "affected_objects": [
-                    
-                ]
-            },
-            {
-                "description": "Enchanting table (medium pink light)",
-                "object_id": 10054,
-                "affected_objects": [
-                    
-                ]
-            },
-            {
-                "description": "Amethyst cluster",
-                "object_id": 10055,
-                "affected_objects": [
-                    
-                ]
-            },
-            {
-                "description": "Calibrated sculk sensor",
-                "object_id": 10056,
-                "affected_objects": [
-                    
-                ]
-            },
-            {
-                "description": "Active sculk sensor",
-                "object_id": 10057,
-                "affected_objects": [
-                    
-                ]
-            },
-            {
-                "description": "Redstone block",
-                "object_id": 10058,
-                "affected_objects": [
-                    
-                ]
-            },
-            {
-                "description": "Nether portal",
-                "object_id": 10062,
-                "affected_objects": [
-                    
-                ]
-            },
-            {
-                "description": "End portal",
-                "object_id": 10063,
-                "affected_objects": [
-                    
-                ]
-            },
-            {
-                "description": "Tinting Blocks: Red",
-                "object_id": 10064,
-                "affected_objects": [
-                    
-                ]
-            },
-            {
-                "description": "Tinting Blocks: Orange",
-                "object_id": 10065,
-                "affected_objects": [
-                    
-                ]
-            },
-            {
-                "description": "Tinting Blocks: Yellow",
-                "object_id": 10066,
-                "affected_objects": [
-                    
-                ]
-            },
-            {
-                "description": "Tinting Blocks: Brown",
-                "object_id": 10067,
-                "affected_objects": [
-                    
-                ]
-            },
-            {
-                "description": "Tinting Blocks: Green",
-                "object_id": 10068,
-                "affected_objects": [
-                    
-                ]
-            },
-            {
-                "description": "Tinting Blocks: Lime",
-                "object_id": 10069,
-                "affected_objects": [
-                    
-                ]
-            },
-            {
-                "description": "Tinting Blocks: Blue",
-                "object_id": 10070,
-                "affected_objects": [
-                    
-                ]
-            },
-            {
-                "description": "Tinting Blocks: Light blue",
-                "object_id": 10071,
-                "affected_objects": [
-                    
-                ]
-            },
-            {
-                "description": "Tinting Blocks: Cyan",
-                "object_id": 10072,
-                "affected_objects": [
-                    
-                ]
-            },
-            {
-                "description": "Tinting Blocks: Purple",
-                "object_id": 10073,
-                "affected_objects": [
-                    
-                ]
-            },
-            {
-                "description": "Tinting Blocks: Magenta",
-                "object_id": 10074,
-                "affected_objects": [
-                    
-                ]
-            },
-            {
-                "description": "Tinting Blocks: Pink",
-                "object_id": 10075,
-                "affected_objects": [
-                    
-                ]
-            },
-            {
-                "description": "Tinting Blocks: Black",
-                "object_id": 10076,
-                "affected_objects": [
-                    
-                ]
-            },
-            {
-                "description": "Tinting Blocks: White",
-                "object_id": 10077,
-                "affected_objects": [
-                    
-                ]
-            },
-            {
-                "description": "Tinting Blocks: Gray",
-                "object_id": 10078,
-                "affected_objects": [
-                    
-                ]
-            },
-            {
-                "description": "Tinting Blocks: Light gray",
-                "object_id": 10079,
-                "affected_objects": [
-                    
-                ]
-            },
-            {
-                "description": "Tinting Blocks: Transparent",
-                "object_id": 10080,
-                "affected_objects": [
-                    
-                ]
-            }
         ],
         "item": [
             {
-                "description": "Hardcoded specular - Grass, stone, spruce and dark oak planks",
-                "object_id": 10006,
-                "affected_objects": [
-                    
-                ]
-            },
-            {
-                "description": "Hardcoded specular - Sand",
-                "object_id": 10007,
-                "affected_objects": [
-                    
-                ]
-            },
-            {
-                "description": "Hardcoded specular - Ice",
-                "object_id": 10008,
-                "affected_objects": [
-                    
-                ]
-            },
-            {
-                "description": "Hardcoded specular - Red sand, birch planks",
-                "object_id": 10009,
-                "affected_objects": [
-                    
-                ]
-            },
-            {
-                "description": "Hardcoded specular - Oak, jungle and acacia planks, granite and diorite",
-                "object_id": 10010,
-                "affected_objects": [
-                    
-                ]
-            },
-            {
-                "description": "Hardcoded specular - Obsidian, nether bricks",
-                "object_id": 10011,
-                "affected_objects": [
-                    
-                ]
-            },
-            {
-                "description": "Hardcoded specular - Metals",
-                "object_id": 10012,
-                "affected_objects": [
-                    
-                ]
-            },
-            {
-                "description": "Hardcoded specular - Gems",
-                "object_id": 10013,
-                "affected_objects": [
-                    
-                ]
-            },
-            {
                 "description": "Strong white light",
                 "object_id": 10032,
                 "affected_objects": [
@@ -703,123 +164,110 @@
                 ]
             },
             {
-                "description": "Medium white light",
-                "object_id": 10033,
-                "affected_objects": [
-                    
-                ]
-            },
-            {
-                "description": "Weak white light, transparent",
-                "object_id": 10034,
-                "affected_objects": [
-                    
-                ]
-            },
-            {
                 "description": "Strong golden light",
                 "object_id": 10035,
                 "affected_objects": [
-                    "glowstone_slab"
-					"magenta_lamp"
-					"white_lamp"
-					"pink_lamp"
-					"red_lamp"
-					"black_lamp"
-					"green_lamp"
-					"purple_lamp"
-					"yellow_lamp"
-					"lime_lamp"
-					"light_blue_lamp"
-					"light_gray_lamp"
-					"cyan_lamp"
-					"brown_lamp"
-					"blue_lamp"
-					"orange_lamp"
-					"gray_lamp"
-					"pink_paper_lamp"
-					"black_paper_lamp"
-					"green_paper_lamp"
-					"brown_paper_lamp"
-					"light_gray_paper_lamp"
-					"gray_paper_lamp"
-					"orange_paper_lamp"
-					"cyan_paper_lamp"
-					"red_paper_lamp"
-					"white_paper_lamp"
-					"light_blue_paper_lamp"
-					"magenta_paper_lamp"
-					"blue_paper_lamp"
-					"purple_paper_lamp"
-					"yellow_paper_lamp"
-					"lime_paper_lamp"
-					"striped_lantern"
-					"covered_lantern"
-					"classic_street_lamp"
-					"chain_lantern"
-					"bell_wall_lantern"
-					"wall_lantern"
-					"cross_lantern"
-					"square_wall_lamp"
-					"wall_lamp"
-					"tavern_lantern"
-					"garden_light"
-					"festive_wall_lantern"
-					"bell_lantern"
-					"chain_wall_lantern"
-					"cross_wall_lantern"
-					"striped_wall_lantern"
-					"festive_lantern"
-					"covered_wall_lantern"
-					"double_street_lamp"
-					"tavern_wall_lantern"
-					"copper_small_chandelier"
-					"iron_small_chandelier"
-					"copper_chandelier"
-					"golden_chandelier"
-					"iron_chandelier"
-					"golden_small_chandelier"
-					"brown_ceiling_light"
-					"blue_ceiling_light"
-					"light_gray_ceiling_light"
-					"magenta_ceiling_light"
-					"light_blue_ceiling_light"
-					"yellow_ceiling_light"
-					"gray_ceiling_light"
-					"white_ceiling_light"
-					"red_ceiling_light"
-					"purple_ceiling_light"
-					"black_ceiling_light"
-					"pink_ceiling_light"
-					"cyan_ceiling_light"
-					"green_ceiling_light"
-					"lime_ceiling_light"
-					"orange_ceiling_light"
-					"redstone_lamp_slab"
-					"golden_low_candle_holder"
-					"golden_wall_candle_holder"
-					"golden_candle_holder"
-					"golden_double_candle_holder"
-					"golden_triple_candle_holder"
-					"iron_low_candle_holder"
-					"iron_wall_candle_holder"
-					"iron_candle_holder"
-					"iron_double_candle_holder"
-					"iron_triple_candle_holder"
-					"copper_low_candle_holder"
-					"copper_wall_candle_holder"
-					"copper_candle_holder"
-					"copper_double_candle_holder"
-					"copper_triple_candle_holder"
-					"oak_ceiling_fan_light"
-					"birch_ceiling_fan_light"
-					"spruce_ceiling_fan_light"
-					"jungle_ceiling_fan_light"
-					"dark_oak_ceiling_fan_light"
-					"acacia_ceiling_fan_light"
-					"cherry_ceiling_fan_light"
-					"mangrove_ceiling_fan_light"
-					"crimson_ceiling_fan_light"
+                    "glowstone_slab",
+					"magenta_lamp",
+					"white_lamp",
+					"pink_lamp",
+					"red_lamp",
+					"black_lamp",
+					"green_lamp",
+					"purple_lamp",
+					"yellow_lamp",
+					"lime_lamp",
+					"light_blue_lamp",
+					"light_gray_lamp",
+					"cyan_lamp",
+					"brown_lamp",
+					"blue_lamp",
+					"orange_lamp",
+					"gray_lamp",
+					"pink_paper_lamp",
+					"black_paper_lamp",
+					"green_paper_lamp",
+					"brown_paper_lamp",
+					"light_gray_paper_lamp",
+					"gray_paper_lamp",
+					"orange_paper_lamp",
+					"cyan_paper_lamp",
+					"red_paper_lamp",
+					"white_paper_lamp",
+					"light_blue_paper_lamp",
+					"magenta_paper_lamp",
+					"blue_paper_lamp",
+					"purple_paper_lamp",
+					"yellow_paper_lamp",
+					"lime_paper_lamp",
+					"lava_lamp",
+					"striped_lantern",
+					"covered_lantern",
+					"classic_street_lamp",
+					"chain_lantern",
+					"bell_wall_lantern",
+					"wall_lantern",
+					"cross_lantern",
+					"square_wall_lamp",
+					"wall_lamp",
+					"tavern_lantern",
+					"garden_light",
+					"festive_wall_lantern",
+					"bell_lantern",
+					"chain_wall_lantern",
+					"cross_wall_lantern",
+					"striped_wall_lantern",
+					"festive_lantern",
+					"covered_wall_lantern",
+					"double_street_lamp",
+					"tavern_wall_lantern",
+					"copper_small_chandelier",
+					"iron_small_chandelier",
+					"copper_chandelier",
+					"golden_chandelier",
+					"iron_chandelier",
+					"golden_small_chandelier",
+					"brown_ceiling_light",
+					"blue_ceiling_light",
+					"light_gray_ceiling_light",
+					"magenta_ceiling_light",
+					"light_blue_ceiling_light",
+					"yellow_ceiling_light",
+					"gray_ceiling_light",
+					"white_ceiling_light",
+					"red_ceiling_light",
+					"purple_ceiling_light",
+					"black_ceiling_light",
+					"pink_ceiling_light",
+					"cyan_ceiling_light",
+					"green_ceiling_light",
+					"lime_ceiling_light",
+					"orange_ceiling_light",
+					"redstone_lamp_slab",
+					"golden_low_candle_holder",
+					"golden_wall_candle_holder",
+					"golden_candle_holder",
+					"golden_double_candle_holder",
+					"golden_triple_candle_holder",
+					"iron_low_candle_holder",
+					"iron_wall_candle_holder",
+					"iron_candle_holder",
+					"iron_double_candle_holder",
+					"iron_triple_candle_holder",
+					"copper_low_candle_holder",
+					"copper_wall_candle_holder",
+					"copper_candle_holder",
+					"copper_double_candle_holder",
+					"copper_triple_candle_holder",
+					"oak_ceiling_fan_light",
+					"birch_ceiling_fan_light",
+					"spruce_ceiling_fan_light",
+					"jungle_ceiling_fan_light",
+					"dark_oak_ceiling_fan_light",
+					"acacia_ceiling_fan_light",
+					"cherry_ceiling_fan_light",
+					"mangrove_ceiling_fan_light",
+					"crimson_ceiling_fan_light",
 					"warped_ceiling_fan_light"
                 ]
             },
@@ -827,262 +275,43 @@
                 "description": "Medium golden light",
                 "object_id": 10036,
                 "affected_objects": [
-                    "oak_tiki_torch"
-					"jungle_tiki_torch"
-					"dark_oak_tiki_torch"
-					"bamboo_tiki_torch"
-					"spruce_tiki_torch"
-					"cherry_tiki_torch"
-					"acacia_tiki_torch"
-					"birch_tiki_torch"
-					"mangrove_tiki_torch"
-					"crimson_tiki_torch"
-					"warped_tiki_torch"
-					"upgraded_torch"
-					"framed_torch"
-					"reinforced_torch"
-					"rustic_torch"
+                    "oak_tiki_torch",
+					"jungle_tiki_torch",
+					"dark_oak_tiki_torch",
+					"bamboo_tiki_torch",
+					"spruce_tiki_torch",
+					"cherry_tiki_torch",
+					"acacia_tiki_torch",
+					"birch_tiki_torch",
+					"mangrove_tiki_torch",
+					"crimson_tiki_torch",
+					"warped_tiki_torch",
+					"upgraded_torch",
+					"framed_torch",
+					"reinforced_torch",
+					"rustic_torch",
 					"iron_framed_torch"
-                ]
-            },
-            {
-                "description": "Weak golden light, transparent",
-                "object_id": 10037,
-                "affected_objects": [
-                    
-                ]
-            },
-            {
-                "description": "Redstone components",
-                "object_id": 10038,
-                "affected_objects": [
-                    
-                ]
-            },
-            {
-                "description": "Lava",
-                "object_id": 10039,
-                "affected_objects": [
-                    
-                ]
-            },
-            {
-                "description": "Medium orange light",
-                "object_id": 10040,
-                "affected_objects": [
-                    "shroomlight_slab"
-                ]
-            },
-            {
-                "description": "Brewing stand",
-                "object_id": 10041,
-                "affected_objects": [
-                    
-                ]
-            },
-            {
-                "description": "Jack o' Lantern",
-                "object_id": 10042,
-                "affected_objects": [
-                    
                 ]
             },
             {
                 "description": "Soul lights",
                 "object_id": 10043,
                 "affected_objects": [
-                    "soul_spruce_tiki_torch"
-					"soul_bamboo_tiki_torch"
-					"soul_cherry_tiki_torch"
-					"soul_acacia_tiki_torch"
-					"soul_birch_tiki_torch"
-					"soul_oak_tiki_torch"
-					"soul_dark_oak_tiki_torch"
-					"soul_jungle_tiki_torch"
-					"soul_mangrove_tiki_torch"
-					"soul_crimson_tiki_torch"
-					"soul_warped_tiki_torch"
-					"soul_classic_street_lamp"
+                    "soul_spruce_tiki_torch",
+					"soul_bamboo_tiki_torch",
+					"soul_cherry_tiki_torch",
+					"soul_acacia_tiki_torch",
+					"soul_birch_tiki_torch",
+					"soul_oak_tiki_torch",
+					"soul_dark_oak_tiki_torch",
+					"soul_jungle_tiki_torch",
+					"soul_mangrove_tiki_torch",
+					"soul_crimson_tiki_torch",
+					"soul_warped_tiki_torch",
+					"soul_classic_street_lamp",
 					"soul_double_street_lamp"
                 ]
             },
-            {
-                "description": "Beacon",
-                "object_id": 10044,
-                "affected_objects": [
-                    
-                ]
-            },
-            {
-                "description": "End portal frame (greenish glow)",
-                "object_id": 10045,
-                "affected_objects": [
-                    
-                ]
-            },
-            {
-                "description": "Sculk",
-                "object_id": 10046,
-                "affected_objects": [
-                    
-                ]
-            },
-            {
-                "description": "Pink glow",
-                "object_id": 10047,
-                "affected_objects": [
-                    
-                ]
-            },
-            {
-                "description": "Sea pickle",
-                "object_id": 10048,
-                "affected_objects": [
-                    
-                ]
-            },
-            {
-                "description": "Nether plants",
-                "object_id": 10049,
-                "affected_objects": [
-                    
-                ]
-            },
-            {
-                "description": "Candles",
-                "object_id": 10050,
-                "affected_objects": [
-                    
-                ]
-            },
-            {
-                "description": "Ochre froglight",
-                "object_id": 10051,
-                "affected_objects": [
-                    
-                ]
-            },
-            {
-                "description": "Verdant froglight",
-                "object_id": 10052,
-                "affected_objects": [
-                    
-                ]
-            },
-            {
-                "description": "Pearlescent froglight",
-                "object_id": 10053,
-                "affected_objects": [
-                    
-                ]
-            },
-            {
-                "description": "Enchanting table",
-                "object_id": 10054,
-                "affected_objects": [
-                    
-                ]
-            },
-            {
-                "description": "Amethyst cluster",
-                "object_id": 10055,
-                "affected_objects": [
-                    
-                ]
-            },
-            {
-                "description": "Redstone block",
-                "object_id": 10058,
-                "affected_objects": [
-                    
-                ]
-            },
-            {
-                "description": "Nether portal",
-                "object_id": 10062,
-                "affected_objects": [
-                    
-                ]
-            },
-            {
-                "description": "End portal",
-                "object_id": 10063,
-                "affected_objects": [
-                    
-                ]
-            }
         ],
-        "entity": [
-            {
-                "description": "Weak SSS",
-                "object_id": 10015,
-                "affected_objects": [
-                    
-                ]
-            },
-            {
-                "description": "Medium full emissives",
-                "object_id": 10033,
-                "affected_objects": [
-                    
-                ]
-            },
-            {
-                "description": "Dim full emissives",
-                "object_id": 10034,
-                "affected_objects": [
-                    
-                ]
-            },
-            {
-                "description": "Partial emissives",
-                "object_id": 10036,
-                "affected_objects": [
-                    
-                ]
-            },
-            {
-                "description": "Sculk",
-                "object_id": 10046,
-                "affected_objects": [
-                    
-                ]
-            },
-            {
-                "description": "Pink glow",
-                "object_id": 10047,
-                "affected_objects": [
-                    
-                ]
-            },
-            {
-                "description": "Item",
-                "object_id": 10100,
-                "affected_objects": [
-                    
-                ]
-            },
-            {
-                "description": "Boats",
-                "object_id": 10101,
-                "affected_objects": [
-                    
-                ]
-            },
-            {
-                "description": "Lightning bolt",
-                "object_id": 10102,
-                "affected_objects": [
-                    
-                ]
-            },
-            {
-                "description": "Stained glass and slime",
-                "object_id": 10064,
-                "affected_objects": [
-                    
-                ]
-            }
-        ]
     }
 }
