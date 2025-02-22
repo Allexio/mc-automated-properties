@@ -154,10 +154,6 @@ specular_wood_cherry = 0
 specular_wood_dark_oak = 0
 specular_wood_spruce = 0
 
-[lava]
-
-
-# 
 [sculk]
 standard = 0
 active_sensor = 0
