@@ -1,0 +1,225 @@
+name = "Photon Mapping File"
+description = "This is the reference file for mappings used for the Photon shaderpack."
+shaderpack_author = "Sixthsurge"
+mapping_author = "Allexio"
+
+############ Mapping ##############
+
+# Generic Lights - just standard lighting blocks with all the minecraft-certified colours ;)
+[generic_lights]
+blue_weak = 0
+blue_medium = 0
+blue_strong = 0
+light_blue_weak = 0
+light_blue_medium = 10053
+light_blue_strong = 10053
+cyan_weak = 0
+cyan_medium = 0
+cyan_strong = 0
+gray_weak = 0
+gray_medium = 0
+gray_strong = 0
+light_gray_weak = 0
+light_gray_medium = 0
+light_gray_strong = 0
+green_weak = 0
+green_medium = 10052
+green_strong = 10052
+lime_weak = 0
+lime_medium = 0
+lime_strong = 0
+magenta_weak = 0
+magenta_medium = 0
+magenta_strong = 0
+orange_weak = 0
+orange_medium = 10051
+orange_strong = 10051
+pink_weak = 10047
+pink_medium = 0
+pink_strong = 0
+purple_weak = 0
+purple_medium = 0
+purple_strong = 0
+red_weak = 10038
+red_medium = 0
+red_strong = 10058
+white_weak = 10034
+white_medium = 10033
+white_strong = 10032
+yellow_weak = 10037
+yellow_medium = 10036
+yellow_strong = 10035
+black_weak = 0 # Yes. Someone wanted me to include black lighting.
+black_medium = 0
+black_strong = 0
+
+# other blocks that emit light that might not be included in the light colours above
+[other_lights]
+fire = 10040
+soul_fire = 10043
+candle_weak = 10050
+candle_medium = 10050
+candle_strong = 10050
+brewing_stand = 10041 
+jack_lantern = 10042
+nether_portal = 10062
+end_portal = 10063
+enchanting_table = 10054
+beacon = 10044
+end_portal_frame = 10045
+sea_pickle = 10048
+
+# liquids... like water. And some less like water.
+[liquid]
+water_still = 10001
+water_flowing = 10001
+lava_still = 10039
+lava_flowing = 10039
+chocolate = 10001
+honey = 10001
+other = 10001
+
+# All types of plant
+[plants]
+small = 10002
+small_flower = 0
+tall_lower = 10003
+tall_upper = 10004
+nether = 10049
+leaves = 10005
+leaves_flower = 0
+chorus = 10016
+warped_stem_x = 10019
+warped_stem_y = 10020
+warped_stem_z = 10021
+warped_hyphae = 10022
+crimson_stem_x = 10023
+crimson_stem_y = 10024
+crimson_stem_z = 10025
+crimson_hyphae = 10026
+grass = 10002
+foliage_waving = 0
+foliage_non_waving = 0
+
+# Standard blocks
+[generic_blocks]
+stone = 10006
+stone_partial = 10006
+cobblestone = 0
+cobblestone_partial = 0
+granite = 10010
+granite_partial = 10010
+calcite = 0
+calcite_partial = 0
+diorite = 10010
+diorite_partial = 10010
+andesite = 0
+andesite_partial = 0
+dripstone = 0
+dripstone_partial = 0
+deepslate = 0
+deepslate_partial = 0
+dirt = 0
+dirt_partial = 0
+dirt_snowy = 0
+dirt_mycelium = 0
+grass = 0
+grass_partial = 0
+ice = 10008
+ice_partial = 10008
+moss = 0
+moss_partial = 0
+sand = 10007
+red_sand = 10009
+obsidian = 10011
+obsidian_partial = 10011
+specular_end_stone = 10017
+polished = 10011 # just about any block that is polished
+polished_partial = 10011 
+nether_bricks = 10010
+nether_bricks_partial = 10010
+snow = 10080
+
+# redstone gets to have its own category
+[redstone]
+block_active = 10058
+block_inactive = 0
+contraption_active = 10038
+contraption_inactive = 0
+
+[woods]
+specular_wood_birch = 10009
+specular_wood_oak = 10010
+specular_wood_jungle = 10010
+specular_wood_acacia = 10010
+specular_wood_cherry = 10009
+specular_wood_dark_oak = 10006
+specular_wood_spruce = 10006
+
+[lava]
+
+
+# 
+[sculk]
+standard = 0
+active_sensor = 10057
+calibrated_sensor = 10056
+
+# metals!
+[metals]
+iron = 10012
+gold = 10012
+copper = 10012
+other = 10012
+
+# gems.
+[gems]
+diamond = 10013
+emerald = 10013
+amethyst = 10013
+amethyst_bud = 10055
+lapis = 10013
+quartz = 10013
+other = 10013
+
+# transparent, semi-transparent, and tinted blocks
+[transparent]
+sss_weak = 10015 # light can seep through a little
+sss_medium = 10014 # light can seep through a bit more
+sss_strong = 10014 # light can seep through a lot
+fully_transparent = 10080
+tint_red = 10064
+tint_orange = 10065
+tint_yellow = 10066
+tint_brown = 10067
+tint_green = 10068
+tint_lime = 10069
+tint_blue = 10070
+tint_light_blue = 10071
+tint_cyan = 10072
+tint_purple = 10073
+tint_magenta = 10074
+tint_pink = 10075
+tint_black = 10076
+tint_white = 10077
+tint_gray = 10078
+tint_light_gray = 10079
+transparent_metal = 10018 # stuff like metal bars, grating...
+
+[entities]
+weak_SSS = 10015
+medium_SSS = 0
+strong_SSS = 0
+weak_emissive = 10034
+medium_emissive = 10033
+strong_emissive = 10041
+partial_emissive = 10036
+sculk = 10046
+slime = 10064
+
+[objects]
+item = 10100
+boat = 10101
+
+[other_entities]
+lightning = 10102

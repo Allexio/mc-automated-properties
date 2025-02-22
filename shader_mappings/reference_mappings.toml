@@ -1,0 +1,221 @@
+name = "Reference Mapping File"
+description = "This is the reference file for mappings used for specific shaderpacks."
+comments = "" # Any comments about the mappings can be written here
+shaderpack_author = "" # Here you can write the name of the shaderpack creator
+mappings_author = "" # Here you can write the name of whoever worked on the mappings file
+
+# Generic Lights - just standard lighting blocks with all the minecraft-certified colours ;)
+[generic_lights]
+blue_weak = 0
+blue_medium = 0
+blue_strong = 0
+light_blue_weak = 0
+light_blue_medium = 0
+light_blue_strong = 0
+cyan_weak = 0
+cyan_medium = 0
+cyan_strong = 0
+gray_weak = 0
+gray_medium = 0
+gray_strong = 0
+light_gray_weak = 0
+light_gray_medium = 0
+light_gray_strong = 0
+green_weak = 0
+green_medium = 0
+green_strong = 0
+lime_weak = 0
+lime_medium = 0
+lime_strong = 0
+magenta_weak = 0
+magenta_medium = 0
+magenta_strong = 0
+orange_weak = 0
+orange_medium = 0
+orange_strong = 0
+pink_weak = 0
+pink_medium = 0
+pink_strong = 0
+purple_weak = 0
+purple_medium = 0
+purple_strong = 0
+red_weak = 0
+red_medium = 0
+red_strong = 0
+white_weak = 0
+white_medium = 0
+white_strong = 0
+yellow_weak = 0
+yellow_medium = 0
+yellow_strong = 0
+black_weak = 0 # Yes. Someone wanted me to include black lighting.
+black_medium = 0
+black_strong = 0
+
+# other blocks that emit light that might not be included in the light colours above
+[other_lights]
+fire = 0
+soul_fire = 0
+candle_weak = 0
+candle_medium = 0
+candle_strong = 0
+brewing_stand = 0 
+jack_lantern = 0
+nether_portal = 0
+end_portal = 0
+enchanting_table = 0
+beacon = 0
+end_portal_frame = 0
+
+# liquids... like water. And some less like water.
+[liquid]
+water_still = 0
+water_flowing = 0
+lava_still = 0
+lava_flowing = 0
+chocolate = 0
+honey = 0
+other = 0
+
+# All types of plant
+[plants]
+small = 0
+small_flower = 0
+tall_lower = 0
+tall_upper = 0
+nether = 0
+leaves = 0
+leaves_flower = 0
+chorus = 0
+warped_stem_x = 0
+warped_stem_y = 0
+warped_stem_z = 0
+warped_hyphae = 0
+crimson_stem_x = 0
+crimson_stem_y = 0
+crimson_stem_z = 0
+crimson_hyphae = 0
+grass = 0
+foliage_waving = 0
+foliage_non_waving = 0
+
+# Standard blocky blocks that don't fit in other categories.
+[blocks]
+stone = 0
+stone_partial = 0
+cobblestone = 0
+cobblestone_partial = 0
+granite = 0
+granite_partial = 0
+calcite = 0
+calcite_partial = 0
+diorite = 0
+diorite_partial = 0
+andesite = 0
+andesite_partial = 0
+dripstone = 0
+dripstone_partial = 0
+deepslate = 0
+deepslate_partial = 0
+dirt = 0
+dirt_partial = 0
+dirt_snowy = 0
+dirt_mycelium = 0
+grass = 0
+grass_partial = 0
+ice = 0
+ice_partial = 0
+moss = 0
+moss_partial = 0
+sand = 0
+red_sand = 0
+obsidian = 0
+obsidian_partial = 0
+specular_end_stone = 0
+polished = 0 # just about any block that is polished
+polished_partial = 0 
+nether_bricks = 0
+nether_bricks_partial = 0
+snow = 0
+
+# redstone gets to have its own category
+[redstone]
+block_active = 0
+block_inactive = 0
+contraption_active = 0
+contraption_inactive = 0
+
+[woods]
+specular_wood_birch = 0
+specular_wood_oak = 0
+specular_wood_jungle = 0
+specular_wood_acacia = 0
+specular_wood_cherry = 0
+specular_wood_dark_oak = 0
+specular_wood_spruce = 0
+
+[lava]
+
+
+# 
+[sculk]
+standard = 0
+active_sensor = 0
+calibrated_sensor = 0
+
+# metals!
+[metals]
+iron = 0
+gold = 0
+copper = 0
+other = 0
+
+# gems.
+[gems]
+diamond = 0
+emerald = 0
+amethyst = 0
+amethyst_bud = 0
+lapis = 0
+quartz = 0
+other = 0
+
+# transparent, semi-transparent, and tinted blocks
+[transparent]
+sss_weak = 0 # light can seep through a little
+sss_medium = 0 # light can seep through a bit more
+sss_strong = 0 # light can seep through a lot
+fully_transparent = 0
+tint_red = 0
+tint_orange = 0
+tint_yellow = 0
+tint_brown = 0
+tint_green = 0
+tint_lime = 0
+tint_blue = 0
+tint_light_blue = 0
+tint_cyan = 0
+tint_purple = 0
+tint_magenta = 0
+tint_pink = 0
+tint_black = 0
+tint_white = 0
+tint_gray = 0
+tint_light_gray = 0
+transparent_metal = 0 # stuff like metal bars, grating...
+
+[entities]
+weak_SSS = 0
+medium_SSS = 0
+strong_SSS = 0
+weak_emissive = 0
+medium_emissive = 0
+strong_emissive = 0
+partial_emissive = 0
+sculk = 0
+slime = 0
+lightning = 0
+
+[objects]
+item = 0
+boat = 0
