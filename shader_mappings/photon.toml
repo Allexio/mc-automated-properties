@@ -212,10 +212,8 @@ strong_emissive = 10041
 partial_emissive = 10036
 sculk = 10046
 slime = 10064
+lightning = 10102
 
 [objects]
 item = 10100
 boat = 10101
-
-[other_entities]
-lightning = 10102
