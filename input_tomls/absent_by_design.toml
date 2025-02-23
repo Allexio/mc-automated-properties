@@ -1,0 +1,320 @@
+name = "Absent By Design"
+description = "Adds block variations that are missing from minecraft, using existing vanilla textures."
+id = "absentbydesign"
+
+[block.generic_blocks]
+stone = [
+    "slab_coarse_dirt",
+    "stairs_coarse_dirt",
+    "slab_bricks_cracked",
+    "stairs_bricks_cracked",
+    "wall_stonebrick_cracked",
+    "wall_stonebrick_carved",
+    "trapdoor_stone",
+    "trapdoor_andesite",
+    "trapdoor_stone_bricks",
+    "fence_log_spruce",
+    "fence_log_darkoak",
+    "wall_spruce_log",
+    "wall_dark_oak_log",
+    "wall_stripped_struce_log",
+    "wall_stripped_dark_oak_log",
+    "stairs_smooth_stone",
+    "wall_stone_slab",
+    "wall_stone",
+    "slab_cracked_deepslate_bricks",
+    "slab_cracked_deepslate_tiles",
+    "stairs_cracked_deepslate_bricks",
+    "stairs_cracked_deepslate_tiles",
+    "wall_cracked_deepslate_bricks",
+    "wall_cracked_deepslate_tiles",
+    "fence_mangrove",
+    "fence_warped",
+    "fence_crimson",
+    "wall_mangrove_log",
+    "wall_stripped_mangrove_log",
+    "wall_warped_planks",
+    "wall_crimson_planks",
+    "wall_spruce_planks",
+    "wall_dark_oak_planks",
+    "wall_stripped_warped",
+    "wall_stripped_crimson",
+    "slab_netherrack",
+    "stairs_netherrack",
+]
+sand = ["wall_sandstone_smooth"]
+red_sand = [
+    "wall_sandstone_red_smooth",
+    "fence_log_birch",
+    "wall_birch_log",
+    "wall_stripped_birch_log",
+    "wall_birch_planks",
+]
+granite = [
+    "trapdoor_diorite",
+    "trapdoor_granite",
+    "fence_log_oak",
+    "fence_log_jungle",
+    "fence_log_acacia",
+    "wall_oak_log",
+    "wall_jungle_log",
+    "wall_acacia_log",
+    "wall_stripped_oak_log",
+    "wall_stripped_jungle_log",
+    "wall_stripped_acacia_log",
+    "slab_obsidian",
+    "stairs_obsidian",
+    "wall_obsidian",
+    "slab_cracked_nether_bricks",
+    "stairs_cracked_nether_bricks",
+    "wall_cracked_nether_bricks",
+    "gate_nether_bricks",
+    "fence_red_netherbrick",
+    "gate_red_nether_bricks",
+    "wall_oak_planks",
+    "wall_jungle_planks",
+    "wall_acacia_planks",
+]
+obsidian = [
+    "slab_polished_basalt",
+    "slab_mushroom_polished",
+    "stairs_polished_basalt",
+    "stairs_mushroom_polished",
+    "wall_andesite_smooth",
+    "wall_granite_smooth",
+    "wall_diorite_smooth",
+]
+specular_end_stone = [
+    "slab_end_stone",
+    "stairs_end_stone",
+    "wall_end_stone",
+    "trapdoor_end_stone",
+]
+snow = ["slab_glass", "stairs_glass", "wall_glass"]
+
+[block.gems]
+diamond = [
+    "slab_amethyst",
+    "stairs_amethyst",
+    "wall_amethyst",
+    "wall_quartz",
+    "slab_quartz_bricks",
+    "stairs_quartz_bricks",
+    "wall_quartz_bricks",
+    "gate_quartz",
+    "trapdoor_quartz",
+]
+
+[block.transparent]
+sss_weak = [
+    "slab_wool_black",
+    "stairs_wool_black",
+    "slab_wool_blue",
+    "stairs_wool_blue",
+    "slab_wool_brown",
+    "stairs_wool_brown",
+    "slab_wool_cyan",
+    "stairs_wool_cyan",
+    "slab_wool_gray",
+    "stairs_wool_gray",
+    "slab_wool_green",
+    "stairs_wool_green",
+    "slab_wool_light_blue",
+    "stairs_wool_light_blue",
+    "slab_wool_lime",
+    "stairs_wool_lime",
+    "slab_wool_magenta",
+    "stairs_wool_magenta",
+    "slab_wool_orange",
+    "stairs_wool_orange",
+    "slab_wool_pink",
+    "stairs_wool_pink",
+    "slab_wool_purple",
+    "stairs_wool_purple",
+    "slab_wool_red",
+    "stairs_wool_red",
+    "slab_wool_silver",
+    "stairs_wool_silver",
+    "slab_wool_white",
+    "stairs_wool_white",
+    "slab_wool_yellow",
+    "stairs_wool_yellow",
+]
+tint_red = ["slab_glass_red", "stairs_glass_red", "wall_glass_red"]
+tint_orange = ["slab_glass_orange", "stairs_glass_orange", "wall_glass_orange"]
+tint_yellow = ["slab_glass_yellow", "stairs_glass_yellow", "wall_glass_yellow"]
+tint_brown = ["slab_glass_brown", "stairs_glass_brown", "wall_glass_brown"]
+tint_green = ["slab_glass_green", "stairs_glass_green", "wall_glass_green"]
+tint_lime = ["slab_glass_lime", "stairs_glass_lime", "wall_glass_lime"]
+tint_blue = ["slab_glass_blue", "stairs_glass_blue", "wall_glass_blue"]
+tint_light_blue = [
+    "slab_glass_light_blue",
+    "stairs_glass_light_blue",
+    "wall_glass_light_blue",
+]
+tint_cyan = ["slab_glass_cyan", "stairs_glass_cyan", "wall_glass_cyan"]
+tint_purple = ["slab_glass_purple", "stairs_glass_purple", "wall_glass_purple"]
+tint_magenta = [
+    "slab_glass_magenta",
+    "stairs_glass_magenta",
+    "wall_glass_magenta",
+]
+tint_pink = ["slab_glass_pink", "stairs_glass_pink", "wall_glass_pink"]
+tint_black = ["slab_glass_black", "stairs_glass_black", "wall_glass_black"]
+tint_white = ["slab_glass_white", "stairs_glass_white", "wall_glass_white"]
+tint_gray = ["slab_glass_gray", "stairs_glass_gray", "wall_glass_gray"]
+tint_light_gray = [
+    "slab_glass_light_gray",
+    "stairs_glass_light_gray",
+    "wall_glass_light_gray",
+]
+
+[block.generic_lights]
+white_strong = ["slab_sea_lantern", "stairs_sea_lantern", "wall_sea_lantern"]
+yellow_strong = ["slab_glowstone", "stairs_glowstone", "wall_glowstone"]
+pink_weak = [
+    "slab_crying_obsidian",
+    "stairs_crying_obsidian",
+    "wall_crying_obsidian",
+]
+orange_medium = [
+    "slab_ochre_froglight",
+    "stairs_ochre_froglight",
+    "wall_ochre_froglight",
+]
+green_medium = [
+    "slab_verdant_froglight",
+    "stairs_verdant_froglight",
+    "wall_verdant_froglight",
+]
+light_blue_medium = [
+    "slab_pearlescent_froglight",
+    "stairs_pearlescent_froglight",
+    "wall_pearlescent_froglight",
+]
+
+[block.other_lights]
+fire = ["slab_magma", "stairs_magma", "wall_magma"]
+
+[item.generic_blocks]
+stone = [
+    "slab_coarse_dirt",
+    "stairs_coarse_dirt",
+    "slab_bricks_cracked",
+    "stairs_bricks_cracked",
+    "wall_stonebrick_cracked",
+    "wall_stonebrick_carved",
+    "trapdoor_stone",
+    "trapdoor_andesite",
+    "trapdoor_stone_bricks",
+    "fence_log_spruce",
+    "fence_log_darkoak",
+    "wall_spruce_log",
+    "wall_dark_oak_log",
+    "wall_stripped_struce_log",
+    "wall_stripped_dark_oak_log",
+    "stairs_smooth_stone",
+    "wall_stone_slab",
+    "wall_stone",
+    "slab_cracked_deepslate_bricks",
+    "slab_cracked_deepslate_tiles",
+    "stairs_cracked_deepslate_bricks",
+    "stairs_cracked_deepslate_tiles",
+    "wall_cracked_deepslate_bricks",
+    "wall_cracked_deepslate_tiles",
+    "fence_mangrove",
+    "fence_warped",
+    "fence_crimson",
+    "wall_mangrove_log",
+    "wall_stripped_mangrove_log",
+    "wall_warped_planks",
+    "wall_crimson_planks",
+    "wall_spruce_planks",
+    "wall_dark_oak_planks",
+    "wall_stripped_warped",
+    "wall_stripped_crimson",
+    "slab_netherrack",
+    "stairs_netherrack",
+]
+sand = ["wall_sandstone_smooth"]
+red_sand = [
+    "wall_sandstone_red_smooth",
+    "fence_log_birch",
+    "wall_birch_log",
+    "wall_stripped_birch_log",
+    "wall_birch_planks",
+]
+granite = [
+    "trapdoor_diorite",
+    "trapdoor_granite",
+    "fence_log_oak",
+    "fence_log_jungle",
+    "fence_log_acacia",
+    "wall_oak_log",
+    "wall_jungle_log",
+    "wall_acacia_log",
+    "wall_stripped_oak_log",
+    "wall_stripped_jungle_log",
+    "wall_stripped_acacia_log",
+    "slab_obsidian",
+    "stairs_obsidian",
+    "wall_obsidian",
+    "slab_cracked_nether_bricks",
+    "stairs_cracked_nether_bricks",
+    "wall_cracked_nether_bricks",
+    "gate_nether_bricks",
+    "fence_red_netherbrick",
+    "gate_red_nether_bricks",
+    "wall_oak_planks",
+    "wall_jungle_planks",
+    "wall_acacia_planks",
+]
+obsidian = [
+    "slab_polished_basalt",
+    "slab_mushroom_polished",
+    "stairs_polished_basalt",
+    "stairs_mushroom_polished",
+    "wall_andesite_smooth",
+    "wall_granite_smooth",
+    "wall_diorite_smooth",
+]
+
+[item.gems]
+diamond = [
+    "slab_amethyst",
+    "stairs_amethyst",
+    "wall_amethyst",
+    "wall_quartz",
+    "slab_quartz_bricks",
+    "stairs_quartz_bricks",
+    "wall_quartz_bricks",
+    "gate_quartz",
+    "trapdoor_quartz",
+]
+
+[item.generic_lights]
+white_strong = ["slab_sea_lantern", "stairs_sea_lantern", "wall_sea_lantern"]
+yellow_strong = ["slab_glowstone", "stairs_glowstone", "wall_glowstone"]
+pink_weak = [
+    "slab_crying_obsidian",
+    "stairs_crying_obsidian",
+    "wall_crying_obsidian",
+]
+orange_medium = [
+    "slab_ochre_froglight",
+    "stairs_ochre_froglight",
+    "wall_ochre_froglight",
+]
+green_medium = [
+    "slab_verdant_froglight",
+    "stairs_verdant_froglight",
+    "wall_verdant_froglight",
+]
+light_blue_medium = [
+    "slab_pearlescent_froglight",
+    "stairs_pearlescent_froglight",
+    "wall_pearlescent_froglight",
+]
+
+[item.other_lights]
+fire = ["slab_magma", "stairs_magma", "wall_magma"]
