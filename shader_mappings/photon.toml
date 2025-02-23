@@ -82,12 +82,12 @@ other = 10001
 # All types of plant
 [plants]
 small = 10002
-small_flower = 0
+small_flower = 10002
 tall_lower = 10003
 tall_upper = 10004
 nether = 10049
 leaves = 10005
-leaves_flower = 0
+leaves_flower = 10005
 chorus = 10016
 warped_stem_x = 10019
 warped_stem_y = 10020
@@ -104,40 +104,25 @@ foliage_non_waving = 0
 # Standard blocks
 [generic_blocks]
 stone = 10006
-stone_partial = 10006
 cobblestone = 0
-cobblestone_partial = 0
 granite = 10010
-granite_partial = 10010
 calcite = 0
-calcite_partial = 0
 diorite = 10010
-diorite_partial = 10010
 andesite = 0
-andesite_partial = 0
 dripstone = 0
-dripstone_partial = 0
 deepslate = 0
-deepslate_partial = 0
 dirt = 0
-dirt_partial = 0
 dirt_snowy = 0
 dirt_mycelium = 0
 grass = 0
-grass_partial = 0
 ice = 10008
-ice_partial = 10008
 moss = 0
-moss_partial = 0
 sand = 10007
 red_sand = 10009
 obsidian = 10011
-obsidian_partial = 10011
 specular_end_stone = 10017
 polished = 10011 # just about any block that is polished
-polished_partial = 10011 
 nether_bricks = 10010
-nether_bricks_partial = 10010
 snow = 10080
 
 # redstone gets to have its own category
