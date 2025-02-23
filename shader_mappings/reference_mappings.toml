@@ -103,40 +103,25 @@ foliage_non_waving = 0
 # Standard blocky blocks that don't fit in other categories.
 [blocks]
 stone = 0
-stone_partial = 0
 cobblestone = 0
-cobblestone_partial = 0
 granite = 0
-granite_partial = 0
 calcite = 0
-calcite_partial = 0
 diorite = 0
-diorite_partial = 0
 andesite = 0
-andesite_partial = 0
 dripstone = 0
-dripstone_partial = 0
 deepslate = 0
-deepslate_partial = 0
 dirt = 0
-dirt_partial = 0
 dirt_snowy = 0
 dirt_mycelium = 0
 grass = 0
-grass_partial = 0
 ice = 0
-ice_partial = 0
 moss = 0
-moss_partial = 0
 sand = 0
 red_sand = 0
 obsidian = 0
-obsidian_partial = 0
 specular_end_stone = 0
 polished = 0 # just about any block that is polished
-polished_partial = 0 
 nether_bricks = 0
-nether_bricks_partial = 0
 snow = 0
 
 # redstone gets to have its own category
