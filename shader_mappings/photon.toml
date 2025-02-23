@@ -148,13 +148,13 @@ contraption_active = 10038
 contraption_inactive = 0
 
 [woods]
-specular_wood_birch = 10009
-specular_wood_oak = 10010
-specular_wood_jungle = 10010
-specular_wood_acacia = 10010
-specular_wood_cherry = 10009
-specular_wood_dark_oak = 10006
-specular_wood_spruce = 10006
+birch = 10009
+oak = 10010
+jungle = 10010
+acacia = 10010
+cherry = 10009
+dark_oak = 10006
+spruce = 10006
 
 [sculk]
 standard = 0
